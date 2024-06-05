@@ -1,0 +1,13 @@
+prefix=/Users/home/Documents/PracticeCode/venv
+exec_prefix=/Users/home/Documents/PracticeCode/venv
+libdir=/Users/home/Documents/PracticeCode/venv/lib
+sharedlibdir=/Users/home/Documents/PracticeCode/venv/lib
+includedir=/Users/home/Documents/PracticeCode/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
