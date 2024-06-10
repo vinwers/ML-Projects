@@ -15,14 +15,13 @@
 TK_VERSION='8.6'
 TK_MAJOR_VERSION='8'
 TK_MINOR_VERSION='6'
-TK_PATCH_LEVEL='.12'
+TK_PATCH_LEVEL='.14'
 
 # -D flags for use with the C compiler.
 TK_DEFS='-DPACKAGE_NAME=\"tk\" -DPACKAGE_TARNAME=\"tk\" -DPACKAGE_VERSION=\"8.6\" -DPACKAGE_STRING=\"tk\ 8.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DHAVE_PTHREAD_ATTR_SETSTACKSIZE=1 -DHAVE_PTHREAD_ATFORK=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -DHAVE_HIDDEN=1 -DMAC_OSX_TCL=1 -DHAVE_COREFOUNDATION=1 -DTCL_CFG_DO64BIT=1 -DHAVE_CAST_TO_UNION=1 -DTCL_SHLIB_EXT=\".dylib\" -DNDEBUG=1 -DTCL_CFG_OPTIMIZED=1 -DTCL_WIDE_INT_IS_LONG=1 -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_INTPTR_T=1 -DHAVE_UINTPTR_T=1 -DHAVE_PW_GECOS=1 -DHAVE_AVAILABILITYMACROS_H=1 -DHAVE_WEAK_IMPORT=1 -D_DARWIN_C_SOURCE=1 -DMAC_OSX_TK=1 '
 
 # Flag, 1: we built a shared lib, 0 we didn't
 TK_SHARED_BUILD=1
-
 
 # TK_DBGX used to be used to distinguish debug vs. non-debug builds.
 # This was a righteous pain so the core doesn't do that any more.
@@ -53,7 +52,7 @@ TK_LIB_FLAG='-ltk8.6'
 
 # String to pass to linker to pick up the Tk library from its
 # build directory.
-TK_BUILD_LIB_SPEC='-L/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a0b3437e-5427-478c-9c0d-3bf16a61dfacwyldasds/croots/recipe/tk_1654088774077/work/tk8.6.12/unix -ltk8.6'
+TK_BUILD_LIB_SPEC='-L/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_5efi11_j83/croot/tk_1714770578518/work/tk8.6.14/unix -ltk8.6'
 
 # String to pass to linker to pick up the Tk library from its
 # installed directory.
@@ -69,7 +68,7 @@ TK_INCLUDE_SPEC='-I/Users/home/Documents/PracticeCode/venv/include'
 # different place than the directory containing the source files, this
 # points to the location of the sources, not the location where Tk was
 # compiled.
-TK_SRC_DIR='/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a0b3437e-5427-478c-9c0d-3bf16a61dfacwyldasds/croots/recipe/tk_1654088774077/work/tk8.6.12'
+TK_SRC_DIR='/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_5efi11_j83/croot/tk_1714770578518/work/tk8.6.14'
 
 # Needed if you want to make a 'fat' shared library library
 # containing tk objects or link a different wish.
@@ -84,14 +83,14 @@ TK_STUB_LIB_FLAG='-ltkstub8.6'
 
 # String to pass to linker to pick up the Tk stub library from its
 # build directory.
-TK_BUILD_STUB_LIB_SPEC='-L/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a0b3437e-5427-478c-9c0d-3bf16a61dfacwyldasds/croots/recipe/tk_1654088774077/work/tk8.6.12/unix -ltkstub8.6'
+TK_BUILD_STUB_LIB_SPEC='-L/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_5efi11_j83/croot/tk_1714770578518/work/tk8.6.14/unix -ltkstub8.6'
 
 # String to pass to linker to pick up the Tk stub library from its
 # installed directory.
 TK_STUB_LIB_SPEC='-L/Users/home/Documents/PracticeCode/venv/lib -ltkstub8.6'
 
 # Path to the Tk stub library in the build directory.
-TK_BUILD_STUB_LIB_PATH='/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a0b3437e-5427-478c-9c0d-3bf16a61dfacwyldasds/croots/recipe/tk_1654088774077/work/tk8.6.12/unix/libtkstub8.6.a'
+TK_BUILD_STUB_LIB_PATH='/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_5efi11_j83/croot/tk_1714770578518/work/tk8.6.14/unix/libtkstub8.6.a'
 
 # Path to the Tk stub library in the install directory.
 TK_STUB_LIB_PATH='/Users/home/Documents/PracticeCode/venv/lib/libtkstub8.6.a'

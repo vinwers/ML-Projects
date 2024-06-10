@@ -19,6 +19,8 @@
 #include "tkPort.h"
 #endif
 
+#define TK_OPTION_ENUM_VAR		((int)(sizeof(Tk_OptionType)&(sizeof(int)-1))<<6)
+
 /*
  * Ensure WORDS_BIGENDIAN is defined correctly:
  * Needs to happen here in addition to configure to work with fat compiles on
@@ -84,7 +86,9 @@
 # endif
 #endif
 
-#if defined(__GNUC__) && (__GNUC__ > 2)
+#if defined(__STDC_VERSION__) && (__STDC_VERSION__ >= 199901L)
+#   define TKFLEXARRAY
+#elif defined(__GNUC__) && (__GNUC__ > 2)
 #   define TKFLEXARRAY 0
 #else
 #   define TKFLEXARRAY 1
@@ -368,8 +372,14 @@ typedef struct TkDisplay {
 				 * by that container. */
     int geomInit;
 
-#define TkGetContainer(tkwin) (((TkWindow *)tkwin)->maintainerPtr != NULL ? \
-    ((TkWindow *)tkwin)->maintainerPtr : ((TkWindow *)tkwin)->parentPtr)
+    /*
+     * Information used by tkGrid.c, tkPack.c, tkPlace.c, tkPointer.c,
+     * and ttkMacOSXTheme.c:
+     */
+
+#define TkGetContainer(tkwin) (Tk_TopWinHierarchy((TkWindow *)tkwin) ? NULL : \
+	(((TkWindow *)tkwin)->maintainerPtr != NULL ? \
+	 ((TkWindow *)tkwin)->maintainerPtr : ((TkWindow *)tkwin)->parentPtr))
 
     /*
      * Information used by tkGet.c only:
@@ -683,6 +693,8 @@ typedef struct TkMainInfo {
 				/* Saved Tcl [update] command, used to restore
 				 * Tcl's version of [update] after Tk is shut
 				 * down */
+    unsigned int ttkNbTabsStickBit;
+    				/* Information used by ttk::notebook. */
 } TkMainInfo;
 
 /*
@@ -873,6 +885,13 @@ typedef struct TkWindow {
 				 * value is NULL if the window has no container or
 				 * if its container is its parent. */
 } TkWindow;
+
+/*
+ * String tables:
+ */
+
+MODULE_SCOPE const char *const tkStateStrings[];
+MODULE_SCOPE const char *const tkCompoundStrings[];
 
 /*
  * Real definition of some events. Note that these events come from outside
@@ -1075,10 +1094,11 @@ extern "C" {
 #endif
 
 /*
- * Themed widget set init function:
+ * Themed widget set init function, and handler called when Tk is destroyed.
  */
 
 MODULE_SCOPE int	Ttk_Init(Tcl_Interp *interp);
+MODULE_SCOPE void	Ttk_TkDestroyedHandler(Tcl_Interp *interp);
 
 /*
  * Internal functions shared among Tk modules but not exported to the outside
@@ -1236,7 +1256,7 @@ MODULE_SCOPE void	TkFreeGeometryContainer(Tk_Window tkwin,
 MODULE_SCOPE void	TkEventInit(void);
 MODULE_SCOPE void	TkRegisterObjTypes(void);
 MODULE_SCOPE int	TkDeadAppObjCmd(ClientData clientData,
-			    Tcl_Interp *interp, int objc, Tcl_Obj *const argv[]);
+			    Tcl_Interp *interp, int objc, Tcl_Obj *const objv[]);
 MODULE_SCOPE int	TkCanvasGetCoordObj(Tcl_Interp *interp,
 			    Tk_Canvas canvas, Tcl_Obj *obj,
 			    double *doublePtr);
@@ -1248,7 +1268,7 @@ MODULE_SCOPE int	TkPostscriptImage(Tcl_Interp *interp, Tk_Window tkwin,
 MODULE_SCOPE void       TkMapTopFrame(Tk_Window tkwin);
 MODULE_SCOPE XEvent *	TkpGetBindingXEvent(Tcl_Interp *interp);
 MODULE_SCOPE void	TkCreateExitHandler(Tcl_ExitProc *proc,
-			    ClientData clientData);
+			    void *clientData);
 MODULE_SCOPE void	TkDeleteExitHandler(Tcl_ExitProc *proc,
 			    ClientData clientData);
 MODULE_SCOPE Tcl_ExitProc	TkFinalize;
@@ -1318,6 +1338,8 @@ MODULE_SCOPE Status TkParseColor (Display * display,
 #ifdef HAVE_XFT
 MODULE_SCOPE void	TkUnixSetXftClipRegion(TkRegion clipRegion);
 #endif
+
+MODULE_SCOPE void	TkpCopyRegion(TkRegion dst, TkRegion src);
 
 #if !defined(__cplusplus) && !defined(c_plusplus)
 # define c_class class
