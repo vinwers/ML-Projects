@@ -54,7 +54,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/opt/concourse/worker/volumes/live/02c36685-2f60-450f-6d38-49836c6f56c6/volume/libffi_1601368102845/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
         "sha256": "396a93ab83527c0ed0122da85539420b3cc674c1e54a34a4b18cea2f24889332",
-        "sha256_in_prefix": "1fd25c3a02fc80ba18abfb188d2a638d4ebb9107501a16788dec7101cda52d4b",
+        "sha256_in_prefix": "f8d22b883b67503352e65a7bf21540275b093d2e89a71f94c82d0422fb0de31f",
         "size_in_bytes": 32908
       },
       {
@@ -76,7 +76,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/opt/concourse/worker/volumes/live/02c36685-2f60-450f-6d38-49836c6f56c6/volume/libffi_1601368102845/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
         "sha256": "3e298aff49788c9cd4d9aac1ac3074417b48b789941a7efb5abdf1bb7bff02cc",
-        "sha256_in_prefix": "6fedb6c1488879bd266c95deb5e26bede03c546bbc2cbfa2e565c4927305a194",
+        "sha256_in_prefix": "53c3d695fd7b06f4408240e95f063ca4a020c766dc4cc45050b34b2f45960d7f",
         "size_in_bytes": 519
       },
       {

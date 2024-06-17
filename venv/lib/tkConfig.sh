@@ -35,11 +35,11 @@ TK_LIBS='   -lpthread -framework CoreFoundation -framework Cocoa -framework Carb
 
 # Top-level directory in which Tk's platform-independent files are
 # installed.
-TK_PREFIX='/Users/home/Documents/PracticeCode/venv'
+TK_PREFIX='/Users/home/Documents/ML-Projects/venv'
 
 # Top-level directory in which Tk's platform-specific files (e.g.
 # executables) are installed.
-TK_EXEC_PREFIX='/Users/home/Documents/PracticeCode/venv'
+TK_EXEC_PREFIX='/Users/home/Documents/ML-Projects/venv'
 
 # -I switch(es) to use to make all of the X11 include files accessible:
 TK_XINCLUDES=''
@@ -56,11 +56,11 @@ TK_BUILD_LIB_SPEC='-L/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/ab
 
 # String to pass to linker to pick up the Tk library from its
 # installed directory.
-TK_LIB_SPEC='-L/Users/home/Documents/PracticeCode/venv/lib -ltk8.6'
+TK_LIB_SPEC='-L/Users/home/Documents/ML-Projects/venv/lib -ltk8.6'
 
 # String to pass to the compiler so that an extension can
 # find installed Tk headers.
-TK_INCLUDE_SPEC='-I/Users/home/Documents/PracticeCode/venv/include'
+TK_INCLUDE_SPEC='-I/Users/home/Documents/ML-Projects/venv/include'
 
 # Location of the top-level source directory from which Tk was built.
 # This is the directory that contains a README file as well as
@@ -87,10 +87,10 @@ TK_BUILD_STUB_LIB_SPEC='-L/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp
 
 # String to pass to linker to pick up the Tk stub library from its
 # installed directory.
-TK_STUB_LIB_SPEC='-L/Users/home/Documents/PracticeCode/venv/lib -ltkstub8.6'
+TK_STUB_LIB_SPEC='-L/Users/home/Documents/ML-Projects/venv/lib -ltkstub8.6'
 
 # Path to the Tk stub library in the build directory.
 TK_BUILD_STUB_LIB_PATH='/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_5efi11_j83/croot/tk_1714770578518/work/tk8.6.14/unix/libtkstub8.6.a'
 
 # Path to the Tk stub library in the install directory.
-TK_STUB_LIB_PATH='/Users/home/Documents/PracticeCode/venv/lib/libtkstub8.6.a'
+TK_STUB_LIB_PATH='/Users/home/Documents/ML-Projects/venv/lib/libtkstub8.6.a'

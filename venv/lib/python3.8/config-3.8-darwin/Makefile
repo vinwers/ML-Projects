@@ -81,7 +81,7 @@ MAKESETUP=      $(srcdir)/Modules/makesetup
 OPT=		-DNDEBUG -fwrapv -O2 -Wall
 BASECFLAGS=	 -Wno-unused-result -Wsign-compare -Wunreachable-code
 BASECPPFLAGS=	-IObjects -IInclude -IPython
-CONFIGURE_CFLAGS=	-isysroot /opt/MacOSX10.10.sdk -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe  -fdebug-prefix-map=/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work=/usr/local/src/conda/python-3.8.0 -fdebug-prefix-map=/Users/home/Documents/PracticeCode/venv=/usr/local/src/conda-prefix 
+CONFIGURE_CFLAGS=	-isysroot /opt/MacOSX10.10.sdk -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe  -fdebug-prefix-map=/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work=/usr/local/src/conda/python-3.8.0 -fdebug-prefix-map=/Users/home/Documents/ML-Projects/venv=/usr/local/src/conda-prefix 
 # CFLAGS_NODIST is used for building the interpreter and stdlib C extensions.
 # Use it when a compiler flag should _not_ be part of the distutils CFLAGS
 # once Python is installed (Issue #21121).
@@ -90,8 +90,8 @@ CONFIGURE_CFLAGS_NODIST=  -Wl,-export_dynamic -g -std=c99 -Wextra -Wno-unused-re
 # Use it when a linker flag should _not_ be part of the distutils LDFLAGS
 # once Python is installed (bpo-35257)
 CONFIGURE_LDFLAGS_NODIST=  -Wl,-export_dynamic -g
-CONFIGURE_CPPFLAGS=	-isysroot /opt/MacOSX10.10.sdk -D_FORTIFY_SOURCE=2 -mmacosx-version-min=10.9 -I/Users/home/Documents/PracticeCode/venv/include -I/Users/home/Documents/PracticeCode/venv/include
-CONFIGURE_LDFLAGS=	-isysroot /opt/MacOSX10.10.sdk -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib -L/Users/home/Documents/PracticeCode/venv/lib
+CONFIGURE_CPPFLAGS=	-isysroot /opt/MacOSX10.10.sdk -D_FORTIFY_SOURCE=2 -mmacosx-version-min=10.9 -I/Users/home/Documents/ML-Projects/venv/include -I/Users/home/Documents/ML-Projects/venv/include
+CONFIGURE_LDFLAGS=	-isysroot /opt/MacOSX10.10.sdk -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib -L/Users/home/Documents/ML-Projects/venv/lib
 # Avoid assigning CFLAGS, LDFLAGS, etc. so users can use them on the
 # command line to append to these values without stomping the pre-set
 # values.
@@ -130,7 +130,7 @@ MULTIARCH=	darwin
 MULTIARCH_CPPFLAGS = -DMULTIARCH=\"darwin\"
 
 # Install prefix for architecture-independent files
-prefix=		/Users/home/Documents/PracticeCode/venv
+prefix=		/Users/home/Documents/ML-Projects/venv
 
 # Install prefix for architecture-dependent files
 exec_prefix=	${prefix}
@@ -193,9 +193,9 @@ RUNSHARED=
 ENSUREPIP=      no
 
 # OpenSSL options for setup.py so sysconfig can pick up AC_SUBST() vars.
-OPENSSL_INCLUDES=-I/Users/home/Documents/PracticeCode/venv/include
+OPENSSL_INCLUDES=-I/Users/home/Documents/ML-Projects/venv/include
 OPENSSL_LIBS=-lssl -lcrypto
-OPENSSL_LDFLAGS=-L/Users/home/Documents/PracticeCode/venv/lib
+OPENSSL_LDFLAGS=-L/Users/home/Documents/ML-Projects/venv/lib
 
 # Modes for directories, executables and data files created by the
 # install process.  Default to user-only-writable for all file types.
@@ -204,7 +204,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '--prefix=/Users/home/Documents/PracticeCode/venv' '--build=x86_64-apple-darwin13.4.0' '--host=x86_64-apple-darwin13.4.0' '--enable-ipv6' '--with-ensurepip=no' '--with-computed-gotos' '--with-system-ffi' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/Users/home/Documents/PracticeCode/venv/include' '--with-tcltk-libs=-L/Users/home/Documents/PracticeCode/venv/lib -ltcl8.6 -ltk8.6' '--enable-optimizations' '--with-lto' '-oldincludedir=/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/_build_env/x86_64-apple-darwin13.4.0/sysroot/usr/include' '--disable-shared' 'build_alias=x86_64-apple-darwin13.4.0' 'host_alias=x86_64-apple-darwin13.4.0' 'CC=x86_64-apple-darwin13.4.0-clang' 'CFLAGS=-isysroot /opt/MacOSX10.10.sdk -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe  -fdebug-prefix-map=/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work=/usr/local/src/conda/python-3.8.0 -fdebug-prefix-map=/Users/home/Documents/PracticeCode/venv=/usr/local/src/conda-prefix ' 'LDFLAGS=-isysroot /opt/MacOSX10.10.sdk -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib -L/Users/home/Documents/PracticeCode/venv/lib' 'CPPFLAGS=-isysroot /opt/MacOSX10.10.sdk -D_FORTIFY_SOURCE=2 -mmacosx-version-min=10.9 -I/Users/home/Documents/PracticeCode/venv/include -I/Users/home/Documents/PracticeCode/venv/include' 'PKG_CONFIG_PATH=/Users/home/Documents/PracticeCode/venv/lib/pkgconfig'
+CONFIG_ARGS=	 '--prefix=/Users/home/Documents/ML-Projects/venv' '--build=x86_64-apple-darwin13.4.0' '--host=x86_64-apple-darwin13.4.0' '--enable-ipv6' '--with-ensurepip=no' '--with-computed-gotos' '--with-system-ffi' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/Users/home/Documents/ML-Projects/venv/include' '--with-tcltk-libs=-L/Users/home/Documents/ML-Projects/venv/lib -ltcl8.6 -ltk8.6' '--enable-optimizations' '--with-lto' '-oldincludedir=/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/_build_env/x86_64-apple-darwin13.4.0/sysroot/usr/include' '--disable-shared' 'build_alias=x86_64-apple-darwin13.4.0' 'host_alias=x86_64-apple-darwin13.4.0' 'CC=x86_64-apple-darwin13.4.0-clang' 'CFLAGS=-isysroot /opt/MacOSX10.10.sdk -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe  -fdebug-prefix-map=/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work=/usr/local/src/conda/python-3.8.0 -fdebug-prefix-map=/Users/home/Documents/ML-Projects/venv=/usr/local/src/conda-prefix ' 'LDFLAGS=-isysroot /opt/MacOSX10.10.sdk -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib -L/Users/home/Documents/ML-Projects/venv/lib' 'CPPFLAGS=-isysroot /opt/MacOSX10.10.sdk -D_FORTIFY_SOURCE=2 -mmacosx-version-min=10.9 -I/Users/home/Documents/ML-Projects/venv/include -I/Users/home/Documents/ML-Projects/venv/include' 'PKG_CONFIG_PATH=/Users/home/Documents/ML-Projects/venv/lib/pkgconfig'
 
 
 # Subdirectories with code
@@ -253,8 +253,8 @@ BUILD_GNU_TYPE=	x86_64-apple-darwin13.4.0
 HOST_GNU_TYPE=	x86_64-apple-darwin13.4.0
 
 # Tcl and Tk config info from --with-tcltk-includes and -libs options
-TCLTK_INCLUDES=	-I/Users/home/Documents/PracticeCode/venv/include
-TCLTK_LIBS=	-L/Users/home/Documents/PracticeCode/venv/lib -ltcl8.6 -ltk8.6
+TCLTK_INCLUDES=	-I/Users/home/Documents/ML-Projects/venv/include
+TCLTK_LIBS=	-L/Users/home/Documents/ML-Projects/venv/lib -ltcl8.6 -ltk8.6
 
 # The task to run while instrumented when building the profile-opt target.
 # To speed up profile generation, we don't run the full unit test suite
@@ -302,7 +302,7 @@ IO_OBJS=	\
 
 ##########################################################################
 
-LIBFFI_INCLUDEDIR=	/Users/home/Documents/PracticeCode/venv/include
+LIBFFI_INCLUDEDIR=	/Users/home/Documents/ML-Projects/venv/include
 
 ##########################################################################
 # Parser

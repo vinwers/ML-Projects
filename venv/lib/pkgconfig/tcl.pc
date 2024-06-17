@@ -1,8 +1,8 @@
 # tcl pkg-config source file
 
-prefix=/Users/home/Documents/PracticeCode/venv
-exec_prefix=/Users/home/Documents/PracticeCode/venv
-libdir=/Users/home/Documents/PracticeCode/venv/lib
+prefix=/Users/home/Documents/ML-Projects/venv
+exec_prefix=/Users/home/Documents/ML-Projects/venv
+libdir=/Users/home/Documents/ML-Projects/venv/lib
 includedir=${prefix}/include
 libfile=libtcl8.6.dylib
 

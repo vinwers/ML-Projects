@@ -1,8 +1,8 @@
-prefix=/Users/home/Documents/PracticeCode/venv
-exec_prefix=/Users/home/Documents/PracticeCode/venv
-libdir=/Users/home/Documents/PracticeCode/venv/lib
-sharedlibdir=/Users/home/Documents/PracticeCode/venv/lib
-includedir=/Users/home/Documents/PracticeCode/venv/include
+prefix=/Users/home/Documents/ML-Projects/venv
+exec_prefix=/Users/home/Documents/ML-Projects/venv
+libdir=/Users/home/Documents/ML-Projects/venv/lib
+sharedlibdir=/Users/home/Documents/ML-Projects/venv/lib
+includedir=/Users/home/Documents/ML-Projects/venv/include
 
 Name: zlib
 Description: zlib compression library

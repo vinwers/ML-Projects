@@ -1,4 +1,4 @@
-==> 2024-06-10 12:35:17 <==
+==> 2024-06-17 14:58:57 <==
 # cmd: /Users/home/opt/anaconda3/bin/conda create -p venv python==3.8 -y
 # conda version: 4.12.0
 +defaults/osx-64::ca-certificates-2024.3.11-hecd8cb5_0

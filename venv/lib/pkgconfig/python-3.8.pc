@@ -1,5 +1,5 @@
 # See: man pkg-config
-prefix=/Users/home/Documents/PracticeCode/venv
+prefix=/Users/home/Documents/ML-Projects/venv
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

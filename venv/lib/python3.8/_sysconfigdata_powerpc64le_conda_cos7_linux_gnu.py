@@ -8,17 +8,17 @@ build_time_vars = {'ABIFLAGS': '',
  'BASECFLAGS': '-Wno-unused-result -Wsign-compare',
  'BASECPPFLAGS': '-IObjects -IInclude -IPython',
  'BASEMODLIBS': '',
- 'BINDIR': '/Users/home/Documents/PracticeCode/venv/bin',
- 'BINLIBDEST': '/Users/home/Documents/PracticeCode/venv/lib/python3.8',
+ 'BINDIR': '/Users/home/Documents/ML-Projects/venv/bin',
+ 'BINLIBDEST': '/Users/home/Documents/ML-Projects/venv/lib/python3.8',
  'BLDLIBRARY': 'libpython3.8.a',
  'BLDSHARED': 'powerpc64le-conda_cos7-linux-gnu-gcc -pthread -shared -Wl,-O2 '
               '-Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-              '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-              '-L/Users/home/Documents/PracticeCode/venv/lib '
+              '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+              '-L/Users/home/Documents/ML-Projects/venv/lib '
               '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
               '-Wl,-z,now '
-              '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-              '-L/Users/home/Documents/PracticeCode/venv/lib '
+              '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+              '-L/Users/home/Documents/ML-Projects/venv/lib '
               '   '
               '',
  'BUILDEXE': '',
@@ -44,25 +44,25 @@ build_time_vars = {'ABIFLAGS': '',
                      '-mpower8-vector -ftree-vectorize -fPIC '
                      '-fstack-protector-strong -fno-plt -O2 '
                      '-fdebug-prefix-map=/opt/conda/conda-bld/python_1512347718438/work=/usr/local/src/conda/python-3.8.0 '
-                     '-fdebug-prefix-map=/Users/home/Documents/PracticeCode/venv=/usr/local/src/conda-prefix '
+                     '-fdebug-prefix-map=/Users/home/Documents/ML-Projects/venv=/usr/local/src/conda-prefix '
                      '-pipe    '
                      ' ',
  'CONFIGURE_CFLAGS_NODIST': '-std=c99 -Wextra -Wno-unused-result '
                             '-Wno-unused-parameter '
                             '-Wno-missing-field-initializers',
  'CONFIGURE_CPPFLAGS': '-D_FORTIFY_SOURCE=2 -O2 '
-                       '-I/Users/home/Documents/PracticeCode/venv/include',
+                       '-I/Users/home/Documents/ML-Projects/venv/include',
  'CONFIGURE_LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                       '-Wl,-z,now '
-                      '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-                      '-L/Users/home/Documents/PracticeCode/venv/lib',
- 'CONFIG_ARGS': "'--prefix=/Users/home/Documents/PracticeCode/venv' "
+                      '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+                      '-L/Users/home/Documents/ML-Projects/venv/lib',
+ 'CONFIG_ARGS': "'--prefix=/Users/home/Documents/ML-Projects/venv' "
                 "'--build=powerpc64le-conda_cos7-linux-gnu' "
                 "'--host=powerpc64le-conda_cos7-linux-gnu' '--enable-ipv6' "
                 "'--with-ensurepip=no' '--with-computed-gotos' "
                 "'--with-system-ffi' '--enable-loadable-sqlite-extensions' "
-                "'--with-tcltk-includes=-I/Users/home/Documents/PracticeCode/venv/include' "
-                "'--with-tcltk-libs=-L/Users/home/Documents/PracticeCode/venv/lib "
+                "'--with-tcltk-includes=-I/Users/home/Documents/ML-Projects/venv/include' "
+                "'--with-tcltk-libs=-L/Users/home/Documents/ML-Projects/venv/lib "
                 "-ltcl8.6 -ltk8.6' '--enable-optimizations' '--with-lto' "
                 "'--disable-shared' "
                 "'build_alias=powerpc64le-conda_cos7-linux-gnu' "
@@ -72,18 +72,18 @@ build_time_vars = {'ABIFLAGS': '',
                 '-mpower8-vector -ftree-vectorize -fPIC '
                 '-fstack-protector-strong -fno-plt -O2 '
                 '-fdebug-prefix-map=/opt/conda/conda-bld/python_1512347718438/work=/usr/local/src/conda/python-3.8.0 '
-                '-fdebug-prefix-map=/Users/home/Documents/PracticeCode/venv=/usr/local/src/conda-prefix '
+                '-fdebug-prefix-map=/Users/home/Documents/ML-Projects/venv=/usr/local/src/conda-prefix '
                 '-pipe    '
                 " ' 'LDFLAGS=-Wl,-O2 "
                 '-Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-                '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-                "-L/Users/home/Documents/PracticeCode/venv/lib' "
+                '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+                "-L/Users/home/Documents/ML-Projects/venv/lib' "
                 "'CPPFLAGS=-D_FORTIFY_SOURCE=2 -O2 "
-                "-I/Users/home/Documents/PracticeCode/venv/include' "
-                "'CPP=/Users/home/Documents/PracticeCode/venv/bin/powerpc64le-conda_cos7-linux-gnu-cpp' "
-                "'PKG_CONFIG_PATH=/Users/home/Documents/PracticeCode/venv/lib/pkgconfig'",
- 'CONFINCLUDEDIR': '/Users/home/Documents/PracticeCode/venv/include',
- 'CONFINCLUDEPY': '/Users/home/Documents/PracticeCode/venv/include/python3.8',
+                "-I/Users/home/Documents/ML-Projects/venv/include' "
+                "'CPP=/Users/home/Documents/ML-Projects/venv/bin/powerpc64le-conda_cos7-linux-gnu-cpp' "
+                "'PKG_CONFIG_PATH=/Users/home/Documents/ML-Projects/venv/lib/pkgconfig'",
+ 'CONFINCLUDEDIR': '/Users/home/Documents/ML-Projects/venv/include',
+ 'CONFINCLUDEPY': '/Users/home/Documents/ML-Projects/venv/include/python3.8',
  'COREPYTHONPATH': ':',
  'COVERAGE_INFO': '/opt/conda/conda-bld/python_1512347718438/work/build-static/coverage.info',
  'COVERAGE_REPORT': '/opt/conda/conda-bld/python_1512347718438/work/build-static/lcov-report',
@@ -92,17 +92,17 @@ build_time_vars = {'ABIFLAGS': '',
  'CPPFLAGS': '-IObjects -IInclude -IPython -I. '
              '-I/opt/conda/conda-bld/python_1512347718438/work/Include '
              '-D_FORTIFY_SOURCE=2 -O2 '
-             '-I/Users/home/Documents/PracticeCode/venv/include '
+             '-I/Users/home/Documents/ML-Projects/venv/include '
              '-D_FORTIFY_SOURCE=2 -O2 '
-             '-I/Users/home/Documents/PracticeCode/venv/include',
+             '-I/Users/home/Documents/ML-Projects/venv/include',
  'CXX': 'powerpc64le-conda_cos7-linux-gnu-c++ -pthread',
- 'DESTDIRS': '/Users/home/Documents/PracticeCode/venv '
-             '/Users/home/Documents/PracticeCode/venv/lib '
-             '/Users/home/Documents/PracticeCode/venv/lib/python3.8 '
-             '/Users/home/Documents/PracticeCode/venv/lib/python3.8/lib-dynload',
- 'DESTLIB': '/Users/home/Documents/PracticeCode/venv/lib/python3.8',
+ 'DESTDIRS': '/Users/home/Documents/ML-Projects/venv '
+             '/Users/home/Documents/ML-Projects/venv/lib '
+             '/Users/home/Documents/ML-Projects/venv/lib/python3.8 '
+             '/Users/home/Documents/ML-Projects/venv/lib/python3.8/lib-dynload',
+ 'DESTLIB': '/Users/home/Documents/ML-Projects/venv/lib/python3.8',
  'DESTPATH': '',
- 'DESTSHARED': '/Users/home/Documents/PracticeCode/venv/lib/python3.8/lib-dynload',
+ 'DESTSHARED': '/Users/home/Documents/ML-Projects/venv/lib/python3.8/lib-dynload',
  'DFLAGS': '',
  'DIRMODE': 755,
  'DIST': 'README ChangeLog configure configure.ac acconfig.h pyconfig.h.in '
@@ -516,12 +516,12 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE_ZLIB_COPY': 1,
  'HAVE__GETPTY': 0,
  'HOST_GNU_TYPE': 'powerpc64le-conda_cos7-linux-gnu',
- 'INCLDIRSTOMAKE': '/Users/home/Documents/PracticeCode/venv/include '
-                   '/Users/home/Documents/PracticeCode/venv/include '
-                   '/Users/home/Documents/PracticeCode/venv/include/python3.8 '
-                   '/Users/home/Documents/PracticeCode/venv/include/python3.8',
- 'INCLUDEDIR': '/Users/home/Documents/PracticeCode/venv/include',
- 'INCLUDEPY': '/Users/home/Documents/PracticeCode/venv/include/python3.8',
+ 'INCLDIRSTOMAKE': '/Users/home/Documents/ML-Projects/venv/include '
+                   '/Users/home/Documents/ML-Projects/venv/include '
+                   '/Users/home/Documents/ML-Projects/venv/include/python3.8 '
+                   '/Users/home/Documents/ML-Projects/venv/include/python3.8',
+ 'INCLUDEDIR': '/Users/home/Documents/ML-Projects/venv/include',
+ 'INCLUDEPY': '/Users/home/Documents/ML-Projects/venv/include/python3.8',
  'INSTALL': '/usr/bin/install -c',
  'INSTALL_DATA': '/usr/bin/install -c -m 644',
  'INSTALL_PROGRAM': '/usr/bin/install -c',
@@ -532,34 +532,34 @@ build_time_vars = {'ABIFLAGS': '',
  'IO_OBJS': '\\',
  'LDCXXSHARED': 'powerpc64le-conda_cos7-linux-gnu-c++ -pthread -shared',
  'LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-            '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-            '-L/Users/home/Documents/PracticeCode/venv/lib '
+            '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+            '-L/Users/home/Documents/ML-Projects/venv/lib '
             '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-            '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-            '-L/Users/home/Documents/PracticeCode/venv/lib '
+            '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+            '-L/Users/home/Documents/ML-Projects/venv/lib '
             '   ',
  'LDLAST': '',
  'LDLIBRARY': 'libpython3.8.a',
  'LDLIBRARYDIR': '',
  'LDSHARED': 'powerpc64le-conda_cos7-linux-gnu-gcc -pthread -shared -Wl,-O2 '
              '-Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-             '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-             '-L/Users/home/Documents/PracticeCode/venv/lib '
+             '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+             '-L/Users/home/Documents/ML-Projects/venv/lib '
              '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
              '-Wl,-z,now '
-             '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-             '-L/Users/home/Documents/PracticeCode/venv/lib '
+             '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+             '-L/Users/home/Documents/ML-Projects/venv/lib '
              '   ',
  'LDVERSION': '3.8',
  'LIBC': '',
- 'LIBDEST': '/Users/home/Documents/PracticeCode/venv/lib/python3.8',
- 'LIBDIR': '/Users/home/Documents/PracticeCode/venv/lib',
- 'LIBFFI_INCLUDEDIR': '/Users/home/Documents/PracticeCode/venv/include',
+ 'LIBDEST': '/Users/home/Documents/ML-Projects/venv/lib/python3.8',
+ 'LIBDIR': '/Users/home/Documents/ML-Projects/venv/lib',
+ 'LIBFFI_INCLUDEDIR': '/Users/home/Documents/ML-Projects/venv/include',
  'LIBM': '-lm',
  'LIBOBJDIR': 'Python/',
  'LIBOBJS': '',
- 'LIBPC': '/Users/home/Documents/PracticeCode/venv/lib/pkgconfig',
- 'LIBPL': '/Users/home/Documents/PracticeCode/venv/lib/python3.8/config-3.8-powerpc64le-linux-gnu',
+ 'LIBPC': '/Users/home/Documents/ML-Projects/venv/lib/pkgconfig',
+ 'LIBPL': '/Users/home/Documents/ML-Projects/venv/lib/python3.8/config-3.8-powerpc64le-linux-gnu',
  'LIBRARY': 'libpython3.8.a',
  'LIBRARY_OBJS': '\\',
  'LIBRARY_OBJS_OMIT_FROZEN': '\\',
@@ -577,13 +577,13 @@ build_time_vars = {'ABIFLAGS': '',
  'MACHDEP': 'linux',
  'MACHDEPPATH': ':',
  'MACHDEP_OBJS': '',
- 'MACHDESTLIB': '/Users/home/Documents/PracticeCode/venv/lib/python3.8',
+ 'MACHDESTLIB': '/Users/home/Documents/ML-Projects/venv/lib/python3.8',
  'MACOSX_DEPLOYMENT_TARGET': '',
  'MAINCC': 'powerpc64le-conda_cos7-linux-gnu-gcc -pthread',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 0,
  'MAKESETUP': '/opt/conda/conda-bld/python_1512347718438/work/Modules/makesetup',
- 'MANDIR': '/Users/home/Documents/PracticeCode/venv/share/man',
+ 'MANDIR': '/Users/home/Documents/ML-Projects/venv/share/man',
  'MKDIR_P': '/usr/bin/mkdir -p',
  'MODLIBS': '',
  'MODNAMES': '_thread posix errno pwd _sre _codecs _weakref _functools '
@@ -682,25 +682,25 @@ build_time_vars = {'ABIFLAGS': '',
                    '-IPython -I. '
                    '-I/opt/conda/conda-bld/python_1512347718438/work/Include '
                    '-D_FORTIFY_SOURCE=2 -O2 '
-                   '-I/Users/home/Documents/PracticeCode/venv/include '
+                   '-I/Users/home/Documents/ML-Projects/venv/include '
                    '-D_FORTIFY_SOURCE=2 -O2 '
-                   '-I/Users/home/Documents/PracticeCode/venv/include  '
+                   '-I/Users/home/Documents/ML-Projects/venv/include  '
                    '-DPy_BUILD_CORE',
  'PY_CPPFLAGS': '-IObjects -IInclude -IPython -I. '
                 '-I/opt/conda/conda-bld/python_1512347718438/work/Include '
                 '-D_FORTIFY_SOURCE=2 -O2 '
-                '-I/Users/home/Documents/PracticeCode/venv/include '
+                '-I/Users/home/Documents/ML-Projects/venv/include '
                 '-D_FORTIFY_SOURCE=2 -O2 '
-                '-I/Users/home/Documents/PracticeCode/venv/include',
+                '-I/Users/home/Documents/ML-Projects/venv/include',
  'PY_FORMAT_SIZE_T': '"z"',
  'PY_LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                '-Wl,-z,now '
-               '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-               '-L/Users/home/Documents/PracticeCode/venv/lib '
+               '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+               '-L/Users/home/Documents/ML-Projects/venv/lib '
                '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                '-Wl,-z,now '
-               '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-               '-L/Users/home/Documents/PracticeCode/venv/lib '
+               '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+               '-L/Users/home/Documents/ML-Projects/venv/lib '
                '   '
                '',
  'Py_DEBUG': 0,
@@ -712,7 +712,7 @@ build_time_vars = {'ABIFLAGS': '',
  'RESSRCDIR': 'Mac/Resources/framework',
  'RETSIGTYPE': 'void',
  'RUNSHARED': '',
- 'SCRIPTDIR': '/Users/home/Documents/PracticeCode/venv/lib',
+ 'SCRIPTDIR': '/Users/home/Documents/ML-Projects/venv/lib',
  'SETPGRP_HAVE_ARG': 0,
  'SGI_ABI': '',
  'SHELL': '/bin/sh',
@@ -748,8 +748,8 @@ build_time_vars = {'ABIFLAGS': '',
  'SYSLIBS': '-lm',
  'SYS_SELECT_WITH_SYS_TIME': 1,
  'TANH_PRESERVES_ZERO_SIGN': 1,
- 'TCLTK_INCLUDES': '-I/Users/home/Documents/PracticeCode/venv/include',
- 'TCLTK_LIBS': '-L/Users/home/Documents/PracticeCode/venv/lib '
+ 'TCLTK_INCLUDES': '-I/Users/home/Documents/ML-Projects/venv/include',
+ 'TCLTK_LIBS': '-L/Users/home/Documents/ML-Projects/venv/lib '
                '-ltcl8.6 -ltk8.6',
  'TESTOPTS': '',
  'TESTPATH': '',
@@ -782,7 +782,7 @@ build_time_vars = {'ABIFLAGS': '',
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
  'abs_builddir': '/opt/conda/conda-bld/python_1512347718438/work/build-static',
  'abs_srcdir': '/opt/conda/conda-bld/python_1512347718438/work',
- 'datarootdir': '/Users/home/Documents/PracticeCode/venv/share',
- 'exec_prefix': '/Users/home/Documents/PracticeCode/venv',
- 'prefix': '/Users/home/Documents/PracticeCode/venv',
+ 'datarootdir': '/Users/home/Documents/ML-Projects/venv/share',
+ 'exec_prefix': '/Users/home/Documents/ML-Projects/venv',
+ 'prefix': '/Users/home/Documents/ML-Projects/venv',
  'srcdir': '/opt/conda/conda-bld/python_1512347718438/work'}

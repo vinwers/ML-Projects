@@ -1,4 +1,4 @@
-#!/Users/home/Documents/PracticeCode/venv/bin/python3.8
+#!/Users/home/Documents/ML-Projects/venv/bin/python3.8
 # -*- python -*-
 
 # Keep this script in sync with python-config.sh.in

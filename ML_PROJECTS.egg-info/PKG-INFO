@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ML-PROJECTS
+Version: 0.0.1
+Author: Vineet
+Author-email: vinwers@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: seaborn

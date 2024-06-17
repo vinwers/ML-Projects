@@ -5,10 +5,10 @@
 # You can do whatever you want with this file.
 #
 
-prefix=/Users/home/Documents/PracticeCode/venv
-exec_prefix=/Users/home/Documents/PracticeCode/venv
-libdir=/Users/home/Documents/PracticeCode/venv/lib
-includedir=/Users/home/Documents/PracticeCode/venv/include
+prefix=/Users/home/Documents/ML-Projects/venv
+exec_prefix=/Users/home/Documents/ML-Projects/venv
+libdir=/Users/home/Documents/ML-Projects/venv/lib
+includedir=/Users/home/Documents/ML-Projects/venv/include
 
 Name: liblzma
 Description: General purpose data compression library

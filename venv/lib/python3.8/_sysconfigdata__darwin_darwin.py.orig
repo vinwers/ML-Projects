@@ -9,18 +9,18 @@ build_time_vars = {'ABIFLAGS': '',
  'BASECFLAGS': '-Wno-unused-result -Wsign-compare -Wunreachable-code',
  'BASECPPFLAGS': '-IObjects -IInclude -IPython',
  'BASEMODLIBS': '',
- 'BINDIR': '/Users/home/Documents/PracticeCode/venv/bin',
- 'BINLIBDEST': '/Users/home/Documents/PracticeCode/venv/lib/python3.8',
+ 'BINDIR': '/Users/home/Documents/ML-Projects/venv/bin',
+ 'BINLIBDEST': '/Users/home/Documents/ML-Projects/venv/lib/python3.8',
  'BLDLIBRARY': 'libpython3.8.a',
  'BLDSHARED': 'x86_64-apple-darwin13.4.0-clang -bundle -undefined '
               'dynamic_lookup -isysroot /opt/MacOSX10.10.sdk -Wl,-pie '
               '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-              '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-              '-L/Users/home/Documents/PracticeCode/venv/lib '
+              '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+              '-L/Users/home/Documents/ML-Projects/venv/lib '
               '-isysroot /opt/MacOSX10.10.sdk -Wl,-pie '
               '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-              '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-              '-L/Users/home/Documents/PracticeCode/venv/lib',
+              '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+              '-L/Users/home/Documents/ML-Projects/venv/lib',
  'BUILDEXE': '.exe',
  'BUILDPYTHON': 'python.exe',
  'BUILD_GNU_TYPE': 'x86_64-apple-darwin13.4.0',
@@ -32,12 +32,12 @@ build_time_vars = {'ABIFLAGS': '',
            '-mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE '
            '-fstack-protector-strong -O2 -pipe  '
            '-fdebug-prefix-map=/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work=/usr/local/src/conda/python-3.8.0 '
-           '-fdebug-prefix-map=/Users/home/Documents/PracticeCode/venv=/usr/local/src/conda-prefix '
+           '-fdebug-prefix-map=/Users/home/Documents/ML-Projects/venv=/usr/local/src/conda-prefix '
            ' -isysroot /opt/MacOSX10.10.sdk -march=core2 -mtune=haswell '
            '-mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 '
            '-pipe  '
            '-fdebug-prefix-map=/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work=/usr/local/src/conda/python-3.8.0 '
-           '-fdebug-prefix-map=/Users/home/Documents/PracticeCode/venv=/usr/local/src/conda-prefix '
+           '-fdebug-prefix-map=/Users/home/Documents/ML-Projects/venv=/usr/local/src/conda-prefix '
            '',
  'CFLAGSFORSHARED': '',
  'CFLAGS_ALIASING': '-fno-strict-aliasing',
@@ -47,7 +47,7 @@ build_time_vars = {'ABIFLAGS': '',
                      '-mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE '
                      '-fstack-protector-strong -O2 -pipe  '
                      '-fdebug-prefix-map=/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work=/usr/local/src/conda/python-3.8.0 '
-                     '-fdebug-prefix-map=/Users/home/Documents/PracticeCode/venv=/usr/local/src/conda-prefix '
+                     '-fdebug-prefix-map=/Users/home/Documents/ML-Projects/venv=/usr/local/src/conda-prefix '
                      '',
  'CONFIGURE_CFLAGS_NODIST': ' -Wl,-export_dynamic -g -std=c99 -Wextra '
                             '-Wno-unused-result -Wno-unused-parameter '
@@ -56,20 +56,20 @@ build_time_vars = {'ABIFLAGS': '',
                             '-Werror=implicit-function-declaration',
  'CONFIGURE_CPPFLAGS': '-isysroot /opt/MacOSX10.10.sdk -D_FORTIFY_SOURCE=2 '
                        '-mmacosx-version-min=10.9 '
-                       '-I/Users/home/Documents/PracticeCode/venv/include '
-                       '-I/Users/home/Documents/PracticeCode/venv/include',
+                       '-I/Users/home/Documents/ML-Projects/venv/include '
+                       '-I/Users/home/Documents/ML-Projects/venv/include',
  'CONFIGURE_LDFLAGS': '-isysroot /opt/MacOSX10.10.sdk -Wl,-pie '
                       '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-                      '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-                      '-L/Users/home/Documents/PracticeCode/venv/lib',
+                      '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+                      '-L/Users/home/Documents/ML-Projects/venv/lib',
  'CONFIGURE_LDFLAGS_NODIST': ' -Wl,-export_dynamic -g',
- 'CONFIG_ARGS': "'--prefix=/Users/home/Documents/PracticeCode/venv' "
+ 'CONFIG_ARGS': "'--prefix=/Users/home/Documents/ML-Projects/venv' "
                 "'--build=x86_64-apple-darwin13.4.0' "
                 "'--host=x86_64-apple-darwin13.4.0' '--enable-ipv6' "
                 "'--with-ensurepip=no' '--with-computed-gotos' "
                 "'--with-system-ffi' '--enable-loadable-sqlite-extensions' "
-                "'--with-tcltk-includes=-I/Users/home/Documents/PracticeCode/venv/include' "
-                "'--with-tcltk-libs=-L/Users/home/Documents/PracticeCode/venv/lib "
+                "'--with-tcltk-includes=-I/Users/home/Documents/ML-Projects/venv/include' "
+                "'--with-tcltk-libs=-L/Users/home/Documents/ML-Projects/venv/lib "
                 "-ltcl8.6 -ltk8.6' '--enable-optimizations' '--with-lto' "
                 "'-oldincludedir=/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/_build_env/x86_64-apple-darwin13.4.0/sysroot/usr/include' "
                 "'--disable-shared' 'build_alias=x86_64-apple-darwin13.4.0' "
@@ -79,18 +79,18 @@ build_time_vars = {'ABIFLAGS': '',
                 '-ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 '
                 '-pipe  '
                 '-fdebug-prefix-map=/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work=/usr/local/src/conda/python-3.8.0 '
-                '-fdebug-prefix-map=/Users/home/Documents/PracticeCode/venv=/usr/local/src/conda-prefix '
+                '-fdebug-prefix-map=/Users/home/Documents/ML-Projects/venv=/usr/local/src/conda-prefix '
                 "' 'LDFLAGS=-isysroot /opt/MacOSX10.10.sdk -Wl,-pie "
                 '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-                '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-                "-L/Users/home/Documents/PracticeCode/venv/lib' "
+                '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+                "-L/Users/home/Documents/ML-Projects/venv/lib' "
                 "'CPPFLAGS=-isysroot /opt/MacOSX10.10.sdk -D_FORTIFY_SOURCE=2 "
                 '-mmacosx-version-min=10.9 '
-                '-I/Users/home/Documents/PracticeCode/venv/include '
-                "-I/Users/home/Documents/PracticeCode/venv/include' "
-                "'PKG_CONFIG_PATH=/Users/home/Documents/PracticeCode/venv/lib/pkgconfig'",
- 'CONFINCLUDEDIR': '/Users/home/Documents/PracticeCode/venv/include',
- 'CONFINCLUDEPY': '/Users/home/Documents/PracticeCode/venv/include/python3.8',
+                '-I/Users/home/Documents/ML-Projects/venv/include '
+                "-I/Users/home/Documents/ML-Projects/venv/include' "
+                "'PKG_CONFIG_PATH=/Users/home/Documents/ML-Projects/venv/lib/pkgconfig'",
+ 'CONFINCLUDEDIR': '/Users/home/Documents/ML-Projects/venv/include',
+ 'CONFINCLUDEPY': '/Users/home/Documents/ML-Projects/venv/include/python3.8',
  'COREPYTHONPATH': '',
  'COVERAGE_INFO': '/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work/build-static/coverage.info',
  'COVERAGE_REPORT': '/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work/build-static/lcov-report',
@@ -100,20 +100,20 @@ build_time_vars = {'ABIFLAGS': '',
              '-I/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work/Include '
              '-isysroot /opt/MacOSX10.10.sdk -D_FORTIFY_SOURCE=2 '
              '-mmacosx-version-min=10.9 '
-             '-I/Users/home/Documents/PracticeCode/venv/include '
-             '-I/Users/home/Documents/PracticeCode/venv/include '
+             '-I/Users/home/Documents/ML-Projects/venv/include '
+             '-I/Users/home/Documents/ML-Projects/venv/include '
              '-isysroot /opt/MacOSX10.10.sdk -D_FORTIFY_SOURCE=2 '
              '-mmacosx-version-min=10.9 '
-             '-I/Users/home/Documents/PracticeCode/venv/include '
-             '-I/Users/home/Documents/PracticeCode/venv/include',
+             '-I/Users/home/Documents/ML-Projects/venv/include '
+             '-I/Users/home/Documents/ML-Projects/venv/include',
  'CXX': 'x86_64-apple-darwin13.4.0-clang++',
- 'DESTDIRS': '/Users/home/Documents/PracticeCode/venv '
-             '/Users/home/Documents/PracticeCode/venv/lib '
-             '/Users/home/Documents/PracticeCode/venv/lib/python3.8 '
-             '/Users/home/Documents/PracticeCode/venv/lib/python3.8/lib-dynload',
- 'DESTLIB': '/Users/home/Documents/PracticeCode/venv/lib/python3.8',
+ 'DESTDIRS': '/Users/home/Documents/ML-Projects/venv '
+             '/Users/home/Documents/ML-Projects/venv/lib '
+             '/Users/home/Documents/ML-Projects/venv/lib/python3.8 '
+             '/Users/home/Documents/ML-Projects/venv/lib/python3.8/lib-dynload',
+ 'DESTLIB': '/Users/home/Documents/ML-Projects/venv/lib/python3.8',
  'DESTPATH': '',
- 'DESTSHARED': '/Users/home/Documents/PracticeCode/venv/lib/python3.8/lib-dynload',
+ 'DESTSHARED': '/Users/home/Documents/ML-Projects/venv/lib/python3.8/lib-dynload',
  'DFLAGS': '',
  'DIRMODE': 755,
  'DIST': 'README.rst ChangeLog configure configure.ac acconfig.h pyconfig.h.in '
@@ -569,12 +569,12 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE_ZLIB_COPY': 1,
  'HAVE__GETPTY': 0,
  'HOST_GNU_TYPE': 'x86_64-apple-darwin13.4.0',
- 'INCLDIRSTOMAKE': '/Users/home/Documents/PracticeCode/venv/include '
-                   '/Users/home/Documents/PracticeCode/venv/include '
-                   '/Users/home/Documents/PracticeCode/venv/include/python3.8 '
-                   '/Users/home/Documents/PracticeCode/venv/include/python3.8',
- 'INCLUDEDIR': '/Users/home/Documents/PracticeCode/venv/include',
- 'INCLUDEPY': '/Users/home/Documents/PracticeCode/venv/include/python3.8',
+ 'INCLDIRSTOMAKE': '/Users/home/Documents/ML-Projects/venv/include '
+                   '/Users/home/Documents/ML-Projects/venv/include '
+                   '/Users/home/Documents/ML-Projects/venv/include/python3.8 '
+                   '/Users/home/Documents/ML-Projects/venv/include/python3.8',
+ 'INCLUDEDIR': '/Users/home/Documents/ML-Projects/venv/include',
+ 'INCLUDEPY': '/Users/home/Documents/ML-Projects/venv/include/python3.8',
  'INSTALL': '/usr/bin/install -c',
  'INSTALL_DATA': '/usr/bin/install -c -m 644',
  'INSTALL_PROGRAM': '/usr/bin/install -c',
@@ -587,33 +587,33 @@ build_time_vars = {'ABIFLAGS': '',
                 'dynamic_lookup',
  'LDFLAGS': '-isysroot /opt/MacOSX10.10.sdk -Wl,-pie '
             '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-            '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-            '-L/Users/home/Documents/PracticeCode/venv/lib '
+            '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+            '-L/Users/home/Documents/ML-Projects/venv/lib '
             '-isysroot /opt/MacOSX10.10.sdk -Wl,-pie '
             '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-            '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-            '-L/Users/home/Documents/PracticeCode/venv/lib',
+            '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+            '-L/Users/home/Documents/ML-Projects/venv/lib',
  'LDLIBRARY': 'libpython3.8.a',
  'LDLIBRARYDIR': '',
  'LDSHARED': 'x86_64-apple-darwin13.4.0-clang -bundle -undefined '
              'dynamic_lookup -isysroot /opt/MacOSX10.10.sdk -Wl,-pie '
              '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-             '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-             '-L/Users/home/Documents/PracticeCode/venv/lib '
+             '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+             '-L/Users/home/Documents/ML-Projects/venv/lib '
              '-isysroot /opt/MacOSX10.10.sdk -Wl,-pie '
              '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-             '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-             '-L/Users/home/Documents/PracticeCode/venv/lib',
+             '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+             '-L/Users/home/Documents/ML-Projects/venv/lib',
  'LDVERSION': '3.8',
  'LIBC': '',
- 'LIBDEST': '/Users/home/Documents/PracticeCode/venv/lib/python3.8',
- 'LIBDIR': '/Users/home/Documents/PracticeCode/venv/lib',
- 'LIBFFI_INCLUDEDIR': '/Users/home/Documents/PracticeCode/venv/include',
+ 'LIBDEST': '/Users/home/Documents/ML-Projects/venv/lib/python3.8',
+ 'LIBDIR': '/Users/home/Documents/ML-Projects/venv/lib',
+ 'LIBFFI_INCLUDEDIR': '/Users/home/Documents/ML-Projects/venv/include',
  'LIBM': '',
  'LIBOBJDIR': 'Python/',
  'LIBOBJS': '',
- 'LIBPC': '/Users/home/Documents/PracticeCode/venv/lib/pkgconfig',
- 'LIBPL': '/Users/home/Documents/PracticeCode/venv/lib/python3.8/config-3.8-darwin',
+ 'LIBPC': '/Users/home/Documents/ML-Projects/venv/lib/pkgconfig',
+ 'LIBPL': '/Users/home/Documents/ML-Projects/venv/lib/python3.8/config-3.8-darwin',
  'LIBPYTHON': '',
  'LIBRARY': 'libpython3.8.a',
  'LIBRARY_OBJS': '\\',
@@ -631,13 +631,13 @@ build_time_vars = {'ABIFLAGS': '',
  'LOCALMODLIBS': '',
  'MACHDEP': 'darwin',
  'MACHDEP_OBJS': '',
- 'MACHDESTLIB': '/Users/home/Documents/PracticeCode/venv/lib/python3.8',
+ 'MACHDESTLIB': '/Users/home/Documents/ML-Projects/venv/lib/python3.8',
  'MACOSX_DEPLOYMENT_TARGET': '10.9',
  'MAINCC': 'x86_64-apple-darwin13.4.0-clang',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 0,
  'MAKESETUP': '/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work/Modules/makesetup',
- 'MANDIR': '/Users/home/Documents/PracticeCode/venv/share/man',
+ 'MANDIR': '/Users/home/Documents/ML-Projects/venv/share/man',
  'MKDIR_P': '/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work/install-sh '
             '-c -d',
  'MODBUILT_NAMES': 'posix  errno  pwd  _sre  _codecs  _weakref  _functools  '
@@ -664,8 +664,8 @@ build_time_vars = {'ABIFLAGS': '',
  'MVWDELCH_IS_EXPRESSION': 1,
  'NO_AS_NEEDED': '',
  'OBJECT_OBJS': '\\',
- 'OPENSSL_INCLUDES': '-I/Users/home/Documents/PracticeCode/venv/include',
- 'OPENSSL_LDFLAGS': '-L/Users/home/Documents/PracticeCode/venv/lib',
+ 'OPENSSL_INCLUDES': '-I/Users/home/Documents/ML-Projects/venv/include',
+ 'OPENSSL_LDFLAGS': '-L/Users/home/Documents/ML-Projects/venv/lib',
  'OPENSSL_LIBS': '-lssl -lcrypto',
  'OPT': '-DNDEBUG -fwrapv -O2 -Wall',
  'OTHER_LIBTOOL_OPT': '',
@@ -704,13 +704,13 @@ build_time_vars = {'ABIFLAGS': '',
                              '-mtune=haswell -mssse3 -ftree-vectorize -fPIC '
                              '-fPIE -fstack-protector-strong -O2 -pipe  '
                              '-fdebug-prefix-map=/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work=/usr/local/src/conda/python-3.8.0 '
-                             '-fdebug-prefix-map=/Users/home/Documents/PracticeCode/venv=/usr/local/src/conda-prefix '
+                             '-fdebug-prefix-map=/Users/home/Documents/ML-Projects/venv=/usr/local/src/conda-prefix '
                              ' -isysroot /opt/MacOSX10.10.sdk '
                              '-march=core2 -mtune=haswell -mssse3 '
                              '-ftree-vectorize -fPIC -fPIE '
                              '-fstack-protector-strong -O2 -pipe  '
                              '-fdebug-prefix-map=/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work=/usr/local/src/conda/python-3.8.0 '
-                             '-fdebug-prefix-map=/Users/home/Documents/PracticeCode/venv=/usr/local/src/conda-prefix '
+                             '-fdebug-prefix-map=/Users/home/Documents/ML-Projects/venv=/usr/local/src/conda-prefix '
                              '  -Wl,-export_dynamic -g -std=c99 '
                              '-Wextra -Wno-unused-result -Wno-unused-parameter '
                              '-Wno-missing-field-initializers '
@@ -722,24 +722,24 @@ build_time_vars = {'ABIFLAGS': '',
                              '-I/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work/Include '
                              '-isysroot /opt/MacOSX10.10.sdk '
                              '-D_FORTIFY_SOURCE=2 -mmacosx-version-min=10.9 '
-                             '-I/Users/home/Documents/PracticeCode/venv/include '
-                             '-I/Users/home/Documents/PracticeCode/venv/include '
+                             '-I/Users/home/Documents/ML-Projects/venv/include '
+                             '-I/Users/home/Documents/ML-Projects/venv/include '
                              '-isysroot /opt/MacOSX10.10.sdk '
                              '-D_FORTIFY_SOURCE=2 -mmacosx-version-min=10.9 '
-                             '-I/Users/home/Documents/PracticeCode/venv/include '
-                             '-I/Users/home/Documents/PracticeCode/venv/include '
+                             '-I/Users/home/Documents/ML-Projects/venv/include '
+                             '-I/Users/home/Documents/ML-Projects/venv/include '
                              '-DPy_BUILD_CORE_BUILTIN',
  'PY_CFLAGS': '-Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG '
               '-fwrapv -O2 -Wall -isysroot /opt/MacOSX10.10.sdk -march=core2 '
               '-mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE '
               '-fstack-protector-strong -O2 -pipe  '
               '-fdebug-prefix-map=/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work=/usr/local/src/conda/python-3.8.0 '
-              '-fdebug-prefix-map=/Users/home/Documents/PracticeCode/venv=/usr/local/src/conda-prefix '
+              '-fdebug-prefix-map=/Users/home/Documents/ML-Projects/venv=/usr/local/src/conda-prefix '
               ' -isysroot /opt/MacOSX10.10.sdk -march=core2 '
               '-mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE '
               '-fstack-protector-strong -O2 -pipe  '
               '-fdebug-prefix-map=/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work=/usr/local/src/conda/python-3.8.0 '
-              '-fdebug-prefix-map=/Users/home/Documents/PracticeCode/venv=/usr/local/src/conda-prefix '
+              '-fdebug-prefix-map=/Users/home/Documents/ML-Projects/venv=/usr/local/src/conda-prefix '
               '',
  'PY_CFLAGS_NODIST': ' -Wl,-export_dynamic -g -std=c99 -Wextra '
                      '-Wno-unused-result -Wno-unused-parameter '
@@ -753,12 +753,12 @@ build_time_vars = {'ABIFLAGS': '',
                    '-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC '
                    '-fPIE -fstack-protector-strong -O2 -pipe  '
                    '-fdebug-prefix-map=/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work=/usr/local/src/conda/python-3.8.0 '
-                   '-fdebug-prefix-map=/Users/home/Documents/PracticeCode/venv=/usr/local/src/conda-prefix '
+                   '-fdebug-prefix-map=/Users/home/Documents/ML-Projects/venv=/usr/local/src/conda-prefix '
                    ' -isysroot /opt/MacOSX10.10.sdk -march=core2 '
                    '-mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE '
                    '-fstack-protector-strong -O2 -pipe  '
                    '-fdebug-prefix-map=/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work=/usr/local/src/conda/python-3.8.0 '
-                   '-fdebug-prefix-map=/Users/home/Documents/PracticeCode/venv=/usr/local/src/conda-prefix '
+                   '-fdebug-prefix-map=/Users/home/Documents/ML-Projects/venv=/usr/local/src/conda-prefix '
                    '  -Wl,-export_dynamic -g -std=c99 -Wextra '
                    '-Wno-unused-result -Wno-unused-parameter '
                    '-Wno-missing-field-initializers -Wstrict-prototypes '
@@ -769,41 +769,41 @@ build_time_vars = {'ABIFLAGS': '',
                    '-I/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work/Include '
                    '-isysroot /opt/MacOSX10.10.sdk -D_FORTIFY_SOURCE=2 '
                    '-mmacosx-version-min=10.9 '
-                   '-I/Users/home/Documents/PracticeCode/venv/include '
-                   '-I/Users/home/Documents/PracticeCode/venv/include '
+                   '-I/Users/home/Documents/ML-Projects/venv/include '
+                   '-I/Users/home/Documents/ML-Projects/venv/include '
                    '-isysroot /opt/MacOSX10.10.sdk -D_FORTIFY_SOURCE=2 '
                    '-mmacosx-version-min=10.9 '
-                   '-I/Users/home/Documents/PracticeCode/venv/include '
-                   '-I/Users/home/Documents/PracticeCode/venv/include '
+                   '-I/Users/home/Documents/ML-Projects/venv/include '
+                   '-I/Users/home/Documents/ML-Projects/venv/include '
                    '-DPy_BUILD_CORE',
  'PY_CORE_LDFLAGS': '-isysroot /opt/MacOSX10.10.sdk -Wl,-pie '
                     '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-                    '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-                    '-L/Users/home/Documents/PracticeCode/venv/lib '
+                    '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+                    '-L/Users/home/Documents/ML-Projects/venv/lib '
                     '-isysroot /opt/MacOSX10.10.sdk -Wl,-pie '
                     '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-                    '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-                    '-L/Users/home/Documents/PracticeCode/venv/lib '
+                    '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+                    '-L/Users/home/Documents/ML-Projects/venv/lib '
                     ' -Wl,-export_dynamic -g',
  'PY_CPPFLAGS': '-IObjects -IInclude -IPython -I. '
                 '-I/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work/Include '
                 '-isysroot /opt/MacOSX10.10.sdk -D_FORTIFY_SOURCE=2 '
                 '-mmacosx-version-min=10.9 '
-                '-I/Users/home/Documents/PracticeCode/venv/include '
-                '-I/Users/home/Documents/PracticeCode/venv/include '
+                '-I/Users/home/Documents/ML-Projects/venv/include '
+                '-I/Users/home/Documents/ML-Projects/venv/include '
                 '-isysroot /opt/MacOSX10.10.sdk -D_FORTIFY_SOURCE=2 '
                 '-mmacosx-version-min=10.9 '
-                '-I/Users/home/Documents/PracticeCode/venv/include '
-                '-I/Users/home/Documents/PracticeCode/venv/include',
+                '-I/Users/home/Documents/ML-Projects/venv/include '
+                '-I/Users/home/Documents/ML-Projects/venv/include',
  'PY_FORMAT_SIZE_T': '"z"',
  'PY_LDFLAGS': '-isysroot /opt/MacOSX10.10.sdk -Wl,-pie '
                '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-               '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-               '-L/Users/home/Documents/PracticeCode/venv/lib '
+               '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+               '-L/Users/home/Documents/ML-Projects/venv/lib '
                '-isysroot /opt/MacOSX10.10.sdk -Wl,-pie '
                '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-               '-Wl,-rpath,/Users/home/Documents/PracticeCode/venv/lib '
-               '-L/Users/home/Documents/PracticeCode/venv/lib',
+               '-Wl,-rpath,/Users/home/Documents/ML-Projects/venv/lib '
+               '-L/Users/home/Documents/ML-Projects/venv/lib',
  'PY_LDFLAGS_NODIST': ' -Wl,-export_dynamic -g',
  'PY_SSL_DEFAULT_CIPHERS': 1,
  'PY_SSL_DEFAULT_CIPHER_STRING': 0,
@@ -813,12 +813,12 @@ build_time_vars = {'ABIFLAGS': '',
                         '-mssse3 -ftree-vectorize -fPIC -fPIE '
                         '-fstack-protector-strong -O2 -pipe  '
                         '-fdebug-prefix-map=/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work=/usr/local/src/conda/python-3.8.0 '
-                        '-fdebug-prefix-map=/Users/home/Documents/PracticeCode/venv=/usr/local/src/conda-prefix '
+                        '-fdebug-prefix-map=/Users/home/Documents/ML-Projects/venv=/usr/local/src/conda-prefix '
                         ' -isysroot /opt/MacOSX10.10.sdk -march=core2 '
                         '-mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE '
                         '-fstack-protector-strong -O2 -pipe  '
                         '-fdebug-prefix-map=/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work=/usr/local/src/conda/python-3.8.0 '
-                        '-fdebug-prefix-map=/Users/home/Documents/PracticeCode/venv=/usr/local/src/conda-prefix '
+                        '-fdebug-prefix-map=/Users/home/Documents/ML-Projects/venv=/usr/local/src/conda-prefix '
                         '  -Wl,-export_dynamic -g -std=c99 -Wextra '
                         '-Wno-unused-result -Wno-unused-parameter '
                         '-Wno-missing-field-initializers -Wstrict-prototypes '
@@ -829,12 +829,12 @@ build_time_vars = {'ABIFLAGS': '',
                         '-I/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work/Include '
                         '-isysroot /opt/MacOSX10.10.sdk -D_FORTIFY_SOURCE=2 '
                         '-mmacosx-version-min=10.9 '
-                        '-I/Users/home/Documents/PracticeCode/venv/include '
-                        '-I/Users/home/Documents/PracticeCode/venv/include '
+                        '-I/Users/home/Documents/ML-Projects/venv/include '
+                        '-I/Users/home/Documents/ML-Projects/venv/include '
                         '-isysroot /opt/MacOSX10.10.sdk -D_FORTIFY_SOURCE=2 '
                         '-mmacosx-version-min=10.9 '
-                        '-I/Users/home/Documents/PracticeCode/venv/include '
-                        '-I/Users/home/Documents/PracticeCode/venv/include',
+                        '-I/Users/home/Documents/ML-Projects/venv/include '
+                        '-I/Users/home/Documents/ML-Projects/venv/include',
  'Py_DEBUG': 0,
  'Py_ENABLE_SHARED': 0,
  'Py_HASH_ALGORITHM': 0,
@@ -844,7 +844,7 @@ build_time_vars = {'ABIFLAGS': '',
  'RESSRCDIR': 'Mac/Resources/framework',
  'RETSIGTYPE': 'void',
  'RUNSHARED': '',
- 'SCRIPTDIR': '/Users/home/Documents/PracticeCode/venv/lib',
+ 'SCRIPTDIR': '/Users/home/Documents/ML-Projects/venv/lib',
  'SETPGRP_HAVE_ARG': 0,
  'SGI_ABI': '@SGI_ABI@',
  'SHELL': '/bin/sh',
@@ -881,8 +881,8 @@ build_time_vars = {'ABIFLAGS': '',
  'SUBDIRSTOO': 'Include Lib Misc',
  'SYSLIBS': '',
  'SYS_SELECT_WITH_SYS_TIME': 1,
- 'TCLTK_INCLUDES': '-I/Users/home/Documents/PracticeCode/venv/include',
- 'TCLTK_LIBS': '-L/Users/home/Documents/PracticeCode/venv/lib '
+ 'TCLTK_INCLUDES': '-I/Users/home/Documents/ML-Projects/venv/include',
+ 'TCLTK_LIBS': '-L/Users/home/Documents/ML-Projects/venv/lib '
                '-ltcl8.6 -ltk8.6',
  'TESTOPTS': '',
  'TESTPATH': '',
@@ -913,7 +913,7 @@ build_time_vars = {'ABIFLAGS': '',
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
  'abs_builddir': '/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work/build-static',
  'abs_srcdir': '/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work',
- 'datarootdir': '/Users/home/Documents/PracticeCode/venv/share',
- 'exec_prefix': '/Users/home/Documents/PracticeCode/venv',
- 'prefix': '/Users/home/Documents/PracticeCode/venv',
+ 'datarootdir': '/Users/home/Documents/ML-Projects/venv/share',
+ 'exec_prefix': '/Users/home/Documents/ML-Projects/venv',
+ 'prefix': '/Users/home/Documents/ML-Projects/venv',
  'srcdir': '/opt/concourse/worker/volumes/live/903ea60a-0489-485f-6f93-162648469061/volume/python_1573076474316/work'}

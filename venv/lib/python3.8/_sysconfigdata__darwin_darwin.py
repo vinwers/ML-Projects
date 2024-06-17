@@ -8,13 +8,13 @@ build_time_vars = {'ABIFLAGS': '',
  'BASECFLAGS': '-Wno-unused-result -Wsign-compare -Wunreachable-code',
  'BASECPPFLAGS': '',
  'BASEMODLIBS': '',
- 'BINDIR': '/Users/home/Documents/PracticeCode/venv/bin',
- 'BINLIBDEST': '/Users/home/Documents/PracticeCode/venv/lib/python3.8',
+ 'BINDIR': '/Users/home/Documents/ML-Projects/venv/bin',
+ 'BINLIBDEST': '/Users/home/Documents/ML-Projects/venv/lib/python3.8',
  'BLDLIBRARY': '-L. -lpython3.8',
  'BLDSHARED': 'gcc -bundle -undefined dynamic_lookup '
-              '-L/Users/home/Documents/PracticeCode/venv/lib  '
+              '-L/Users/home/Documents/ML-Projects/venv/lib  '
               '-arch x86_64 '
-              '-L/Users/home/Documents/PracticeCode/venv/lib  '
+              '-L/Users/home/Documents/ML-Projects/venv/lib  '
               '-arch x86_64',
  'BUILDEXE': '.exe',
  'BUILDPYTHON': 'python.exe',
@@ -24,46 +24,46 @@ build_time_vars = {'ABIFLAGS': '',
  'CCSHARED': '',
  'CFLAGS': '-Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g '
            '-fwrapv -O3 -Wall -Wstrict-prototypes '
-           '-I/Users/home/Documents/PracticeCode/venv/include  '
+           '-I/Users/home/Documents/ML-Projects/venv/include  '
            '-arch x86_64 '
-           '-I/Users/home/Documents/PracticeCode/venv/include  '
+           '-I/Users/home/Documents/ML-Projects/venv/include  '
            '-arch x86_64',
  'CFLAGSFORSHARED': '',
  'CFLAGS_ALIASING': '-fno-strict-aliasing',
  'CFLAGS_NODIST': '',
  'CONFIGFILES': 'configure configure.ac acconfig.h pyconfig.h.in '
                 'Makefile.pre.in',
- 'CONFIGURE_CFLAGS': '-I/Users/home/Documents/PracticeCode/venv/include  '
+ 'CONFIGURE_CFLAGS': '-I/Users/home/Documents/ML-Projects/venv/include  '
                      '-arch x86_64',
  'CONFIGURE_CFLAGS_NODIST': '-std=c99 -Wextra -Wno-unused-result '
                             '-Wno-unused-parameter '
                             '-Wno-missing-field-initializers',
  'CONFIGURE_CPPFLAGS': '',
- 'CONFIGURE_LDFLAGS': '-L/Users/home/Documents/PracticeCode/venv/lib  '
+ 'CONFIGURE_LDFLAGS': '-L/Users/home/Documents/ML-Projects/venv/lib  '
                       '-arch x86_64',
  'CONFIG_ARGS': "'--enable-shared' '--enable-ipv6' '--with-ensurepip=no' "
-                "'--prefix=/Users/home/Documents/PracticeCode/venv' "
-                "'CFLAGS=-I/Users/home/Documents/PracticeCode/venv/include  "
+                "'--prefix=/Users/home/Documents/ML-Projects/venv' "
+                "'CFLAGS=-I/Users/home/Documents/ML-Projects/venv/include  "
                 "-arch x86_64' "
-                "'LDFLAGS=-L/Users/home/Documents/PracticeCode/venv/lib  "
+                "'LDFLAGS=-L/Users/home/Documents/ML-Projects/venv/lib  "
                 "-arch x86_64' "
-                "'PKG_CONFIG_PATH=/Users/home/Documents/PracticeCode/venv/lib/pkgconfig'",
- 'CONFINCLUDEDIR': '/Users/home/Documents/PracticeCode/venv/include',
- 'CONFINCLUDEPY': '/Users/home/Documents/PracticeCode/venv/include/python3.8',
+                "'PKG_CONFIG_PATH=/Users/home/Documents/ML-Projects/venv/lib/pkgconfig'",
+ 'CONFINCLUDEDIR': '/Users/home/Documents/ML-Projects/venv/include',
+ 'CONFINCLUDEPY': '/Users/home/Documents/ML-Projects/venv/include/python3.8',
  'COREPYTHONPATH': ':',
- 'COVERAGE_INFO': '/Users/home/Documents/PracticeCode/venv/../work/Python-3.8.0/coverage.info',
- 'COVERAGE_REPORT': '/Users/home/Documents/PracticeCode/venv/../work/Python-3.8.0/lcov-report',
+ 'COVERAGE_INFO': '/Users/home/Documents/ML-Projects/venv/../work/Python-3.8.0/coverage.info',
+ 'COVERAGE_REPORT': '/Users/home/Documents/ML-Projects/venv/../work/Python-3.8.0/lcov-report',
  'COVERAGE_REPORT_OPTIONS': '--no-branch-coverage --title "CPython lcov '
                             'report"',
  'CPPFLAGS': '-I. -I./Include',
  'CXX': 'g++',
- 'DESTDIRS': '/Users/home/Documents/PracticeCode/venv '
-             '/Users/home/Documents/PracticeCode/venv/lib '
-             '/Users/home/Documents/PracticeCode/venv/lib/python3.8 '
-             '/Users/home/Documents/PracticeCode/venv/lib/python3.8/lib-dynload',
- 'DESTLIB': '/Users/home/Documents/PracticeCode/venv/lib/python3.8',
+ 'DESTDIRS': '/Users/home/Documents/ML-Projects/venv '
+             '/Users/home/Documents/ML-Projects/venv/lib '
+             '/Users/home/Documents/ML-Projects/venv/lib/python3.8 '
+             '/Users/home/Documents/ML-Projects/venv/lib/python3.8/lib-dynload',
+ 'DESTLIB': '/Users/home/Documents/ML-Projects/venv/lib/python3.8',
  'DESTPATH': '',
- 'DESTSHARED': '/Users/home/Documents/PracticeCode/venv/lib/python3.8/lib-dynload',
+ 'DESTSHARED': '/Users/home/Documents/ML-Projects/venv/lib/python3.8/lib-dynload',
  'DFLAGS': '',
  'DIRMODE': 755,
  'DIST': 'README ChangeLog configure configure.ac acconfig.h pyconfig.h.in '
@@ -477,12 +477,12 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE_ZLIB_COPY': 1,
  'HAVE__GETPTY': 0,
  'HOST_GNU_TYPE': 'x86_64-apple-darwin13.4.0',
- 'INCLDIRSTOMAKE': '/Users/home/Documents/PracticeCode/venv/include '
-                   '/Users/home/Documents/PracticeCode/venv/include '
-                   '/Users/home/Documents/PracticeCode/venv/include/python3.8 '
-                   '/Users/home/Documents/PracticeCode/venv/include/python3.8',
- 'INCLUDEDIR': '/Users/home/Documents/PracticeCode/venv/include',
- 'INCLUDEPY': '/Users/home/Documents/PracticeCode/venv/include/python3.8',
+ 'INCLDIRSTOMAKE': '/Users/home/Documents/ML-Projects/venv/include '
+                   '/Users/home/Documents/ML-Projects/venv/include '
+                   '/Users/home/Documents/ML-Projects/venv/include/python3.8 '
+                   '/Users/home/Documents/ML-Projects/venv/include/python3.8',
+ 'INCLUDEDIR': '/Users/home/Documents/ML-Projects/venv/include',
+ 'INCLUDEPY': '/Users/home/Documents/ML-Projects/venv/include/python3.8',
  'INSTALL': '/usr/bin/install -c',
  'INSTALL_DATA': '/usr/bin/install -c -m 644',
  'INSTALL_PROGRAM': '/usr/bin/install -c',
@@ -492,28 +492,28 @@ build_time_vars = {'ABIFLAGS': '',
  'IO_H': 'Modules/_io/_iomodule.h',
  'IO_OBJS': '\\',
  'LDCXXSHARED': 'g++ -bundle -undefined dynamic_lookup',
- 'LDFLAGS': '-L/Users/home/Documents/PracticeCode/venv/lib  '
+ 'LDFLAGS': '-L/Users/home/Documents/ML-Projects/venv/lib  '
             '-arch x86_64 '
-            '-L/Users/home/Documents/PracticeCode/venv/lib  '
+            '-L/Users/home/Documents/ML-Projects/venv/lib  '
             '-arch x86_64',
  'LDLAST': '',
  'LDLIBRARY': 'libpython3.8.dylib',
  'LDLIBRARYDIR': '',
  'LDSHARED': 'gcc -bundle -undefined dynamic_lookup '
-             '-L/Users/home/Documents/PracticeCode/venv/lib  '
+             '-L/Users/home/Documents/ML-Projects/venv/lib  '
              '-arch x86_64 '
-             '-L/Users/home/Documents/PracticeCode/venv/lib  '
+             '-L/Users/home/Documents/ML-Projects/venv/lib  '
              '-arch x86_64',
  'LDVERSION': '3.8',
  'LIBC': '',
- 'LIBDEST': '/Users/home/Documents/PracticeCode/venv/lib/python3.8',
- 'LIBDIR': '/Users/home/Documents/PracticeCode/venv/lib',
+ 'LIBDEST': '/Users/home/Documents/ML-Projects/venv/lib/python3.8',
+ 'LIBDIR': '/Users/home/Documents/ML-Projects/venv/lib',
  'LIBFFI_INCLUDEDIR': '',
  'LIBM': '',
  'LIBOBJDIR': 'Python/',
  'LIBOBJS': '',
- 'LIBPC': '/Users/home/Documents/PracticeCode/venv/lib/pkgconfig',
- 'LIBPL': '/Users/home/Documents/PracticeCode/venv/lib/python3.8/config-3.8-darwin',
+ 'LIBPC': '/Users/home/Documents/ML-Projects/venv/lib/pkgconfig',
+ 'LIBPL': '/Users/home/Documents/ML-Projects/venv/lib/python3.8/config-3.8-darwin',
  'LIBRARY': 'libpython3.8.a',
  'LIBRARY_OBJS': '\\',
  'LIBRARY_OBJS_OMIT_FROZEN': '\\',
@@ -532,13 +532,13 @@ build_time_vars = {'ABIFLAGS': '',
  'MACHDEP': 'darwin',
  'MACHDEPPATH': ':',
  'MACHDEP_OBJS': '',
- 'MACHDESTLIB': '/Users/home/Documents/PracticeCode/venv/lib/python3.8',
+ 'MACHDESTLIB': '/Users/home/Documents/ML-Projects/venv/lib/python3.8',
  'MACOSX_DEPLOYMENT_TARGET': '10.9',
  'MAINCC': 'gcc',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 0,
  'MAKESETUP': './Modules/makesetup',
- 'MANDIR': '/Users/home/Documents/PracticeCode/venv/share/man',
+ 'MANDIR': '/Users/home/Documents/ML-Projects/venv/share/man',
  'MKDIR_P': './install-sh -c -d',
  'MODLIBS': '',
  'MODNAMES': '_thread posix errno pwd _sre _codecs _weakref _functools '
@@ -598,25 +598,25 @@ build_time_vars = {'ABIFLAGS': '',
  'PYTHON_OBJS': '\\',
  'PY_CFLAGS': '-Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG '
               '-g -fwrapv -O3 -Wall -Wstrict-prototypes '
-              '-I/Users/home/Documents/PracticeCode/venv/include  '
+              '-I/Users/home/Documents/ML-Projects/venv/include  '
               '-arch x86_64 '
-              '-I/Users/home/Documents/PracticeCode/venv/include  '
+              '-I/Users/home/Documents/ML-Projects/venv/include  '
               '-arch x86_64',
  'PY_CFLAGS_NODIST': '-std=c99 -Wextra -Wno-unused-result '
                      '-Wno-unused-parameter -Wno-missing-field-initializers',
  'PY_CORE_CFLAGS': '-Wno-unused-result -Wsign-compare -Wunreachable-code '
                    '-DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes '
-                   '-I/Users/home/Documents/PracticeCode/venv/include  '
+                   '-I/Users/home/Documents/ML-Projects/venv/include  '
                    '-arch x86_64 '
-                   '-I/Users/home/Documents/PracticeCode/venv/include  '
+                   '-I/Users/home/Documents/ML-Projects/venv/include  '
                    '-arch x86_64 -std=c99 -Wextra -Wno-unused-result '
                    '-Wno-unused-parameter -Wno-missing-field-initializers -I. '
                    '-I./Include  -DPy_BUILD_CORE',
  'PY_CPPFLAGS': '-I. -I./Include',
  'PY_FORMAT_SIZE_T': '"z"',
- 'PY_LDFLAGS': '-L/Users/home/Documents/PracticeCode/venv/lib  '
+ 'PY_LDFLAGS': '-L/Users/home/Documents/ML-Projects/venv/lib  '
                '-arch x86_64 '
-               '-L/Users/home/Documents/PracticeCode/venv/lib  '
+               '-L/Users/home/Documents/ML-Projects/venv/lib  '
                '-arch x86_64',
  'Py_DEBUG': 0,
  'Py_ENABLE_SHARED': 0,
@@ -626,8 +626,8 @@ build_time_vars = {'ABIFLAGS': '',
  'READELF': ':',
  'RESSRCDIR': 'Mac/Resources/framework',
  'RETSIGTYPE': 'void',
- 'RUNSHARED': 'DYLD_LIBRARY_PATH=/Users/home/Documents/PracticeCode/venv/../work/Python-3.8.0',
- 'SCRIPTDIR': '/Users/home/Documents/PracticeCode/venv/lib',
+ 'RUNSHARED': 'DYLD_LIBRARY_PATH=/Users/home/Documents/ML-Projects/venv/../work/Python-3.8.0',
+ 'SCRIPTDIR': '/Users/home/Documents/ML-Projects/venv/lib',
  'SETPGRP_HAVE_ARG': 0,
  'SGI_ABI': '',
  'SHELL': '/bin/sh',
@@ -667,10 +667,10 @@ build_time_vars = {'ABIFLAGS': '',
  'TCLTK_LIBS': '',
  'TESTOPTS': '',
  'TESTPATH': '',
- 'TESTPYTHON': 'DYLD_LIBRARY_PATH=/Users/home/Documents/PracticeCode/venv/../work/Python-3.8.0 '
+ 'TESTPYTHON': 'DYLD_LIBRARY_PATH=/Users/home/Documents/ML-Projects/venv/../work/Python-3.8.0 '
                './python.exe',
  'TESTPYTHONOPTS': '',
- 'TESTRUNNER': 'DYLD_LIBRARY_PATH=/Users/home/Documents/PracticeCode/venv/../work/Python-3.8.0 '
+ 'TESTRUNNER': 'DYLD_LIBRARY_PATH=/Users/home/Documents/ML-Projects/venv/../work/Python-3.8.0 '
                './python.exe ./Tools/scripts/run_tests.py',
  'TESTTIMEOUT': 1200,
  'THREADOBJ': 'Python/thread.o',
@@ -694,9 +694,9 @@ build_time_vars = {'ABIFLAGS': '',
  'WITH_VALGRIND': 0,
  'X87_DOUBLE_ROUNDING': 0,
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
- 'abs_builddir': '/Users/home/Documents/PracticeCode/venv/../work/Python-3.8.0',
- 'abs_srcdir': '/Users/home/Documents/PracticeCode/venv/../work/Python-3.8.0',
- 'datarootdir': '/Users/home/Documents/PracticeCode/venv/share',
- 'exec_prefix': '/Users/home/Documents/PracticeCode/venv',
- 'prefix': '/Users/home/Documents/PracticeCode/venv',
+ 'abs_builddir': '/Users/home/Documents/ML-Projects/venv/../work/Python-3.8.0',
+ 'abs_srcdir': '/Users/home/Documents/ML-Projects/venv/../work/Python-3.8.0',
+ 'datarootdir': '/Users/home/Documents/ML-Projects/venv/share',
+ 'exec_prefix': '/Users/home/Documents/ML-Projects/venv',
+ 'prefix': '/Users/home/Documents/ML-Projects/venv',
  'srcdir': '.'}
